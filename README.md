@@ -1,0 +1,1 @@
+This is Spring Batch hands on Project to get core idea how it works . Using ETL Methadology for extracting data from csv file , transforming it with use of ItemProcessor and loading it to any warehouse or S3 bucket.
