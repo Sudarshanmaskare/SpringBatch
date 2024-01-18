@@ -1,4 +1,4 @@
-This is Spring Batch hands on Project to get core idea how it works . Using ETL Methadology for extracting data from csv file , transforming it with use of ItemProcessor and loading it to any warehouse or S3 bucket.
+This is a Spring Batch hands-on Project to get a core idea of how it works. Using ETL Methodology for extracting data from CSV files, transforming it with the use of ItemProcessor, and loading it to any warehouse or S3 bucket.
 
 Set Up Spring Batch Project:
 
@@ -8,7 +8,7 @@ Define Batch Configuration:
 I create a batch configuration class where I define the necessary beans, such as Job, Step, and the components for reading, processing, and writing data.
 Configure CSV Reader:
 
-I configure a FlatFileItemReader to read data from a CSV file. I specify the file location, define a line mapper to map CSV lines to domain objects, and set any necessary properties.
+I configure a FlatFileItemReader to read data from a CSV file. I specify the file location, define a line mapper to map CSV lines to domain objects and set any necessary properties.
 Implement Data Processing:
 
 I implement a custom ItemProcessor class to perform any necessary data processing or transformation. This class will be responsible for modifying the data before it's written to the target database.
